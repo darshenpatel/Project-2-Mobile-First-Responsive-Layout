@@ -22,7 +22,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #FACD6D;
+  color: white;
 }
 
 .main-nav {
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .main-ul {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   display: inline;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ a:hover {
   margin: 0 auto;
   width: 100%;
   padding: 0 10px;
-  border-top: 2px solid black;
+  border-top: 2px solid grey;
   margin-top: 10px;
   padding-top: 25px;
 }
@@ -62,10 +62,10 @@ a:hover {
 .profile p {
   font-size: 15px ;
   font-weight: lighter;
-  color: grey;
+  color: rgba(41, 39, 39, 0.86);
   margin: 0 auto;
   padding-top: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid grey;
   margin-top: 20px;
   padding-bottom: 20px;
 }
@@ -78,10 +78,10 @@ a:hover {
 }
 
 .main-content h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 25px;
   margin-bottom: 0 auto;
-  padding: 20px 0 15px;
+  padding: 25px 0 15px;
   text-transform: uppercase;
 }
 
@@ -103,16 +103,92 @@ a:hover {
 }
 
 .skills p {
+  color: rgba(41, 39, 39, 0.86);
   font-size: 15px;
   margin-bottom: 0;
 }
 
 .skills .skills-info {
-  border-top: 2px solid black;
+  border-top: 2px solid grey;
   margin-top: 25px;
   padding-top: 20px;
 }
 
 .skills ul {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  list-style-type: none;
+}
 
+.skills li {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #FFDF00;
+  border-radius: 5px;
+}
+
+.contact-info {
+  border-top: 2px solid grey;
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+.skills .skills-info,
+.contact-info .contact {
+   font-size: 15px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.contact-text, .phone, .email {
+  color: rgba(41, 39, 39, 0.86);
+}
+
+.contact-info a:hover {
+  color: #FFDF00;
+}
+
+.phone-number {
+  color: black;
+}
+
+.footer-nav {
+  border-top: 2px solid grey;
+  margin-top: 25px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-nav h3, .top {
+  display: inline;
+  font-size: 15px;
+  padding: 10px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer-nav a:hover {
+  color: #FFDF00;
+}
+
+.footer-ul {
+  display: none;
+}
+
+
+/* --- Media Queries --- */
+
+@media (min-width: 768px) {
+  .main-nav .name {
+    margin: 30px 0 10px;
+  }
 }
