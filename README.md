@@ -38,7 +38,7 @@ Treehouse Techdegree - Mobile First Responsive Layout
 
 ### Extra Credit:
   * Add an additional section to the page, such as a skills section. Don’t forget to create a working link to your new section in the navigation menu.
-  * Add at least *TWO* additional items to to further style and enhance the portfolio:
+  * Add at least **TWO** additional items to to further style and enhance the portfolio:
     - A new background color for the navigation and/or main sections of the site.
     - Change the color of at least one piece of text.
     - Add one additional google font that is being used on the page.
