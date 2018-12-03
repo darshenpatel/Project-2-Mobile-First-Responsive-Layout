@@ -4,7 +4,7 @@
 
 body {
   background-color: rgba(240, 240, 240, 0.35);
-  font-family: 'Nunito';
+  font-family: 'Nunito', Arial, sans-serif;
 }
 
 .main {
@@ -60,7 +60,8 @@ a:hover {
 }
 
 .profile p {
-  font-size: 15px ;
+  font-size: 15px;
+  font-family: 'Lato';
   font-weight: lighter;
   color: rgba(41, 39, 39, 0.86);
   margin: 0 auto;
@@ -80,7 +81,7 @@ a:hover {
 .main-content h2 {
   font-size: 20px;
   margin-top: 25px;
-  margin-bottom: 0 auto;
+  margin-bottom: 0;
   padding: 25px 0 15px;
   text-transform: uppercase;
 }
@@ -99,6 +100,7 @@ a:hover {
   color: rgba(41, 39, 39, 0.86);
   font-size: 15px;
   font-weight: lighter;
+  font-family: 'Lato';
   padding: 0 20px;
 }
 
@@ -336,7 +338,7 @@ a:hover {
 
   .row-container .card {
     width: 30%;
-    margin: auto;
+    margin: 0 auto;
   }
 
   .skills p {
